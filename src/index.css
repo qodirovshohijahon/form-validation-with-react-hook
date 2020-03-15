@@ -1,0 +1,23 @@
+html,
+body,
+#root
+{
+  height: 100%;
+}
+
+body
+{
+  background-color: grey;
+}
+
+#root
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background: #4b79a1;
+  background: -webkit-linear-gradient(to bottom, #283e51, #4b79a1);
+  background: linear-gradient(to bottom, #283e51, #4b79a1);
+}
